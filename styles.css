@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 650px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: black; /* Azul con más transparencia */
+  border: 2px solid #808080; /* Borde gris medio */
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Agregar una transición suave */
+}
+
+.btn:hover {
+  background-color: #333; /* Cambia el color al pasar el mouse */
+  animation: pulse 0.5s infinite alternate; /* Añade la animación al pasar el mouse */
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #808080; /* Borde gris medio */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Espacio entre el botón y el exploit */
+}
+
+.custom-button:hover {
+  background-color: #333; /* Cambia el color al pasar el mouse */
+  animation: pulse 0.5s infinite alternate; /* Añade la animación al pasar el mouse */
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.exploit-container {
+  text-align: center;
+  color: white;
+}
+
+.divider {
+  width: 100%; /* Ancho de la línea */
+  height: 1px; /* Grosor de la línea */
+  background-color: white; /* Color de la línea */
+  margin-top: 20px;
+  margin-bottom: 20px; /* Espacio entre la línea y el texto de Arceus */
+}
+
+
+.exploit-title {
+  font-size: 1.5em;
+}
+
+.exploit-description {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.exploit-image {
+  width: 200px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  margin-top: 20px;
+}
